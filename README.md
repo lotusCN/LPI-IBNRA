@@ -2,7 +2,7 @@ The code is from a paper entitled "LPI-IBNRA: Long Non-coding RNA-Protein Intera
 
 
 # LPI-IBNRA_code
-## Files:
+### Files:
 ### 1.Data
 
 Lnc_exp.mat stores lncRNA expression profiles information;
