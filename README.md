@@ -9,7 +9,7 @@ Lnc_exp.mat stores lncRNA expression profiles information;
 
 PLI .mat stores known  protein-lncRNA  interaction information;
 
-PPL.mat stores protein-protein interactions;
+PPL.mat stores protein-protein interactions.
 
 
 ### 2.LOOCV
@@ -20,4 +20,4 @@ main.m:  main function;
 
 plot_roc.m: function of calculating the AUC value and ploting ROC cruve;
 
-LPI_IBNRA.m: function of LPI-IBNRA;
+LPI_IBNRA.m: function of LPI-IBNRA.
