@@ -2,20 +2,20 @@ close all
 clear
 tic
 
-%% import data
+% import data
 load('..\data\PLI.mat');
 load('..\data\PPI.mat');
 load('..\data\Lnc_exp.mat');
 
-%% protein-protein interaction score matrix AP
+% protein-protein interaction score matrix AP
 T=sqrt(sum(PPI,2)*sum(PPI,2)');
 T(T==0)=eps;
 AP = PPI./T;
 
-%% lncRNA-lncRNA similarity matrix AL
+% lncRNA-lncRNA similarity matrix AL
 AL=abs(corrcoef(Lnc_exp'));
 
-%% LOOCV
+% LOOCV
 lambda=0.7;
 gama=0.5;
 [np,nl]=size(PLI);
@@ -38,7 +38,7 @@ M0=M0/i;
 M0(index1)=0;  
 score_matrix=M1+M0;   
 
-%% plot ROC curve
+% plot ROC curve
 auc=plot_roc(score_matrix(:),PLI(:),'r')  
 
 toc
