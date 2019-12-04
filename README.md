@@ -1,3 +1,5 @@
+The code is from a paper entitled "LPI-IBNRA: Long Non-coding RNA-Protein Interaction Prediction Based on Improved Bipartite Network Recommender Algorithm" by Guobo Xie et al. It is written in Matlab.
+
 LPI-IBNRA is one novel computational method, which prdeicts long non-coding RNA-protein Interaction based on improved bipartite network recommender algorithm.
 
 
